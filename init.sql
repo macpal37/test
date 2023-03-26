@@ -1,7 +1,7 @@
 SET GLOBAL local_infile=1;
-CREATE DATABASE IF NOT EXISTS kardashiandb;
+CREATE DATABASE IF NOT EXISTS badmoviesdb;
 
-USE kardashiandb;
+USE badmoviesdb;
 DROP TABLE IF EXISTS episodes;
 
 CREATE TABLE episodes(
